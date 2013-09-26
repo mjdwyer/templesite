@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<link rel="shortcut icon" href="../1-favicon.gif">
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false
+    &amp;key=ABQIAAAAQTtGiimlXEddMFpTePYrCRSIve9U-L20OoIaWyZLdiKT3x4iHhSFuRqfLk_KgJdIn6oJ_ldlDCKYtw"
+    type="text/javascript">
+  </script>
+<script type="text/javascript">
+
+var map;
+var gdir;
+var geocoder = null;
+var addressMarker;
+
+function initialize() {
+if (GBrowserIsCompatible()) {
+map = new GMap2(document.getElementById("map_canvas"));
+gdir = new GDirections(map, document.getElementById("directions"));
+GEvent.addListener(gdir, "load", onGDirectionsLoad);
+GEvent.addListener(gdir, "error", handleErrors);
+
+setDirections("Chapel Hill, NC", "8021 Old NC 86, Chapel Hill, NC 27516-5142", "en_US");
+}
+}
+
+function setDirections(fromAddress, toAddress, locale) {
+gdir.load("from: " + fromAddress + " to: " + toAddress,
+{ "locale": locale });
+}
+
+function handleErrors(){
+if (gdir.getStatus().code == G_GEO_UNKNOWN_ADDRESS)
+alert("No corresponding geographic location could be found for one of the specified addresses. This may be due to the fact that the address is relatively new, or it may be incorrect.\nError code: " + gdir.getStatus().code);
+else if (gdir.getStatus().code == G_GEO_SERVER_ERROR)
+alert("A geocoding or directions request could not be successfully processed, yet the exact reason for the failure is not known.\n Error code: " + gdir.getStatus().code);
+
+else if (gdir.getStatus().code == G_GEO_MISSING_QUERY)
+alert("The HTTP q parameter was either missing or had no value. For geocoder requests, this means that an empty address was specified as input. For directions requests, this means that no query was specified in the input.\n Error code: " + gdir.getStatus().code);
+
+// else if (gdir.getStatus().code == G_UNAVAILABLE_ADDRESS) <--- Doc bug... this is either not defined, or Doc is wrong
+// alert("The geocode for the given address or the route for the given directions query cannot be returned due to legal or contractual reasons.\n Error code: " + gdir.getStatus().code);
+
+else if (gdir.getStatus().code == G_GEO_BAD_KEY)
+alert("The given key is either invalid or does not match the domain for which it was given. \n Error code: " + gdir.getStatus().code);
+
+else if (gdir.getStatus().code == G_GEO_BAD_REQUEST)
+alert("A directions request could not be successfully parsed.\n Error code: " + gdir.getStatus().code);
+
+else alert("An unknown error occurred.");
+
+}
+
+function onGDirectionsLoad(){
+// Use this function to access information about the latest load()
+// results.
+
+// e.g.
+// document.getElementById("getStatus").innerHTML = gdir.getStatus().code;
+// and yada yada yada...
+}
+</script>  
+<link rel="stylesheet" href="../styles/style-new.css">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script adapted from -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Image1.jpg'
+theImages[1] = 'images/Image2.JPG'
+
+// do not edit anything below this line
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+
+var whichImage = 0;
+
+function showImages(numImages){
+for (i=0; i < numImages; i++){
+whichImage = Math.round(Math.random()*(p-1));
+whichImage = i % p;
+document.write("<a href='"+theImages[whichImage]+"'><img class='photo' src='"+theImages[whichImage]+"'></a><br>");
+}
+}
+
+//  End -->
+</script>
+
+
+<link href="../CSS/1-links.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="initialize()" onunload="GUnload()">
+
+<center><div id="wrapL"><div id="header"> 
+            <div id="logo"> 
+              <h1>Won-Buddhism </h1>
+              <p>Meditation Temple, <a href="../index.html">Chapel 
+                Hill, NC</a></p>
+            </div>
+          </div>
+    <table border=0 align="left"  padding=5px>
+    <tr valign="top"> 
+      <td width="387" height="44" colspan=2><div align="center"> 
+          <div id="menu-wrapper"> 
+            <div id="menu"> 
+              <ul id="main">
+                <li><a href="../index.html">Welcome</a></li>
+                  <li><a href="../pgs/1-events.htm">Programs & Events</a></li>
+                  <li><a href="1-about.htm">About Us</a></li>
+                <li><a href="1-volunteering.htm">Volunteering</a></li>
+        
+              </ul>
+            </div>
+          </div>
+        </div></td>
+    </tr>
+    <tr bgcolor="#EFF5F1"> 
+      <td valign=top><center>
+ 
+<iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=m4mnneibtngp6brigt12kmonb4%40group.calendar.google.com&amp;color=%232F6309&amp;src=k7kkeegaeecs6mgoebpendofv0%40group.calendar.google.com&amp;color=%23B1365F&amp;src=sfhoisoq1prl5h4m5g6tftv7uk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="900" height="700" frameborder="0" scrolling="no"></iframe>
+
+</center></td>
+    </tr>
+  </table>
+  </div>
+</center>
+
+</body>
+
+</html>

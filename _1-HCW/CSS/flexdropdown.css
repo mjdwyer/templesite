@@ -1,0 +1,97 @@
+/* CSS Document */
+
+.flexdropdownmenu, .flexdropdownmenu ul{
+	font: bold normal 16px Arial, Helvetica, sans-serif;
+	padding: 5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	list-style-type: none;
+	border: 1px double #FFCC00;
+	visibility: hidden;
+	box-shadow: 3px 3px 8px #818181;
+	text-align: left;
+	width: auto;
+	color: #000000;
+	display: block;
+	height: auto;
+	list-style-position: outside;
+	float: right;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E1ECE4;
+
+
+
+
+
+
+
+
+
+
+
+
+-webkit-box-shadow: 3px 3px 8px #818181;
+-moz-box-shadow: 3px 3px 8px #818181;
+}
+
+
+.flexdropdownmenu li{
+	position: relative;
+	color: #37001C;
+	text-align: left;
+	font-size: 16px;
+	width: 588px;
+	display: block;
+	padding: 5px;
+
+
+
+
+
+
+
+}
+
+.flexdropdownmenu li a{
+	width: 300px;
+	border-bottom: 2px #F4F09F;
+	text-align: left;
+	color: #660033;
+	margin: 0px auto;
+	text-decoration: underline;
+	padding: 5px;
+	height: 100px;
+
+
+
+
+
+
+
+
+
+}
+
+* html .flexdropdownmenu li{
+	display: block;
+
+}
+
+.flexdropdownmenu li a:hover, .flexdropdownmenu li.selected>a{
+	border-bottom: 2px solid #E8EAAA;
+	text-decoration: underline;
+
+
+
+
+
+
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}

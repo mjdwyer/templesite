@@ -1,0 +1,458 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #E1ECE4 url(../images/1-bck-acirL.gif) no-repeat left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF3FB;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #303030;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #330033;
+	font-family: Candara;
+	font-weight: bold;
+
+
+
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 120%;
+	color: #2B212E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+ul, ol {
+}
+marquee {
+	font-family: Eurostile;
+	font-size: 22px;
+	color: #4A3346;
+	height: auto;
+	width: 100%;
+	padding: 5px 5px 10px;
+	margin-bottom: 5px;
+
+
+
+}
+a {
+	text-decoration: none;
+	color: #FFF3FB;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 2px solid #454B47;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 20px;
+}
+
+img.alignright {
+	float: right;
+	margin-left: 15px;
+
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+#wrapR
+{
+	width: 95%;
+	background-repeat: repeat-y;
+	background-position: right top;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/1-halfR.gif);
+
+
+
+
+}
+#wrapper {
+	height: 100%;
+	min-height: 100%;
+	background:  url(images/img01pr250.jpg) no-repeat left top;
+	margin-left: 175px;
+
+}
+
+/* Header */
+
+#header {
+	width: 1000px;
+	height: 70px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	color: #FF99CC;
+}
+
+#logo h1, #logo p {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	margin: 0px;
+	padding: 30px 0px 0px 30px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	text-shadow: #808080 -1px 1px 2px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 45px;
+	color: #666600;
+
+}
+
+#logo p {
+	margin: 0;
+	padding: 63px 0 0 15px;
+	text-shadow: #808080 -1px 1px 2px;
+	font: italic normal 25px Georgia, "Times New Roman", Times, serif;
+	color: #330033;
+
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #666633;
+	font-size: 22px;
+	padding-left: 5px;
+
+
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 233px;
+	height: 30px;
+	padding: 0px 10px 0px 10px;
+	border: none;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #303030;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 580px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 5px 0px 0px 0px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 4px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 25px;
+	margin: 0px 2px 0px 0px;
+	padding: 10px 15px 0px 15px;
+	background:  url(../../../CSS/1-twirling/images/img03.jpg) no-repeat left 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #121212;
+	border: none;
+}
+
+#menu .current_page_item a {
+}
+
+#menu .first a {
+	padding-left: 0px;
+	background: none;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 1000px;
+	padding: 0;
+}
+
+#page-bgtop {
+	background-repeat: repeat-x;
+
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 60px 30px 0px 30px;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 700px;
+	padding: 0px;
+	color: #992D74;
+	margin-left: 20px;
+
+}
+
+#content a {
+	color: #330033;
+}
+
+.post {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	color: #330033;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+	color: #802662;
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #802662;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 220px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	margin-top: -10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-left: -10px;
+
+
+
+
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Franklin Gothic Book";
+	font-size: 16px;
+	color: #333300;
+
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+
+
+}
+
+#sidebar li ul {
+	margin: 0px 15px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	padding-left: 15px;
+	line-height: 35px;
+	background: no-repeat left 14px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 15px;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #330033;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+	font-size: 14px;
+	font-family: BakerSignet;
+	font-weight: bold;
+	color: #330033;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+	text-shadow: #808080 -1px 1px 2px;
+
+
+
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #5B827D;
+
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer-wrapper {
+}
+
+#footer {
+	width: 1000px;
+	height: 300px;
+	margin: -80px auto 0px auto;
+	background:  url(../../../CSS/1-twirling/images/img08.jpg) no-repeat center top;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 180px;
+	line-height: normal;
+	font-size: 14px;
+	text-align: center;
+	color: #992D74;
+}
+
+#footer a {
+	color: #992D74;
+}

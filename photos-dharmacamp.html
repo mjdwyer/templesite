@@ -1,0 +1,109 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="styles/style.css">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script adapted from -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Image1.jpg'
+theImages[1] = 'images/Image2.jpg'
+
+// do not edit anything below this line
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+
+var whichImage = 0;
+
+function showImages(numImages){
+for (i=0; i < numImages; i++){
+whichImage = Math.round(Math.random()*(p-1));
+whichImage = i % p;
+document.write("<a href='"+theImages[whichImage]+"'><img class='photo' src='"+theImages[whichImage]+"'></a><br>");
+}
+}
+
+//  End -->
+</script>
+
+</head>
+
+<body background="images/bodhi_background.png">
+
+<center>
+<table id="wrap" border=0 padding=5px>
+<tr><td colspan=3><center><img id="banner" src="images/banner_wide_mint.png"></center></td></tr>
+<tr>
+<td valign="top">
+<div class="box" id="navlist">
+<a href="index.html">Welcome</a><br>
+<!--<a href="pdfs/cal_latest.pdf">Calendar</a><br> -->
+<a href="googcal.html">Calendar</a><br>
+<a href="events.html">Events</a><br>
+<a href="faqs.html">FAQs (Info)</a><br>
+<a href="directions.html">Directions</a><br>
+<a href="photos.html">Photos</a><br>
+<a href="videos.html">Videos</a><br>
+<a href="fundraising.html">How To Donate</a><br>
+<a href="links.html">Links</a><br>
+<a href="dharmaMessage.html">Dharma Messages</a><br>
+<a href="annualReportSummary.html">Annual Report</a><br>
+<a href="volunteering.html">Volunteering</a><br>
+</div>
+<div class="box" id="contact">
+8021 Old NC 86<br>
+Chapel Hill, NC<br>
+27516-5142
+<p>
+(919) 933-6946
+<p>
+<a class="email"
+href="mailto:wonbuddhismnc@gmail.com">wonbuddhismnc@gmail.com</a>
+</div>
+</td>
+<td valign=top>
+<div class="box" id="content">
+
+		<div class="rbodyblock">
+<center>
+			<h4>Dharma Camp 2011</h4>
+			<img src="images/funindharmacamp.jpg" alt="Cooking 1" /><br />
+			<span class="caption">Fun in Dharma Camp</span>
+			<img src="images/greenteasession.jpg" alt="Cooking 1" /><br />
+			<span class="caption">Green Tea Meditation</span>
+</center>
+		</div>  
+		
+<!--		<ul class="withmarker">
+			
+		<a name="contactus" class="sectionanchor"></a> -->
+						</div>
+
+</div>
+</td>
+<td valign=top>
+<script type="text/javascript">
+showImages(2)
+</script>
+</td>
+</tr>
+</table>
+</center>
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="styles/style.css">
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script adapted from -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Image1.jpg'
+theImages[1] = 'images/Image2.JPG'
+
+// do not edit anything below this line
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+
+var whichImage = 0;
+
+function showImages(numImages){
+for (i=0; i < numImages; i++){
+whichImage = Math.round(Math.random()*(p-1));
+whichImage = i % p;
+document.write("<a href='"+theImages[whichImage]+"'><img class='photo' src='"+theImages[whichImage]+"'></a><br>");
+}
+}
+
+//  End -->
+</script>
+
+</head>
+
+<body background="images/bodhi_background.png">
+
+<center>
+<table id="wrap" border=0 padding=5px>
+<tr><td colspan=3><center><img id="banner" src="images/banner_wide_mint.png"></center></td></tr>
+<tr>
+<td valign="top">
+<div class="box" id="navlist">
+<a href="index.html">Welcome</a><br>
+<a href="pdfs/cal_latest.pdf">Calendar</a><br>
+<!-- <a href="cal_from_image.html">Calendar</a><br>  -->
+<a href="events.html">Events</a><br>
+<a href="faqs.html">FAQs (Info)</a><br>
+<a href="directions.html">Directions</a><br>
+<a href="photos/">Photos</a><br>
+<a href="fundraising.html">How To Donate</a><br>
+<a href="links.html">Links</a><br>
+<a href="dharmaMessage.html">Dharma Messages</a><br>
+<a href="annualReportSummary.html">Annual Report</a><br>
+<a href="childrensCamp.html">Childrens Camp</a><br>
+</div>
+<div class="box" id="contact">
+8021 Old NC 86<br>
+Chapel Hill, NC<br>
+27516-5142
+<p>
+(919) 933-6946
+<p>
+<a class="email"
+href="mailto:wonbuddhismnc@gmail.com">wonbuddhismnc@gmail.com</a>
+</div>
+</td>
+<td valign=top>
+<div class="box" id="content">
+
+		<h3 class="innerpagehead">Directions</h3>
+		<div class="innerpageleft">
+            
+        <p>We are located west of Chapel Hill, NC on Old NC 86, about a mile past 
+	Calvander. Our address is:</p>
+	</div>
+		<div class="address">
+			<span class="ital">Won</span>-Buddhism Meditation Temple<br />
+
+			8021 Old NC 86<br />
+			Chapel Hill, NC 27516-5142
+		</div>
+	<!--div class="map">
+<table width="456" class="mappics">
+				<tr>
+					<td width="238" class="mappic"><img src="images/roadsign.jpg" alt="Road Sign" /><br />
+						<span class="caption">View travelling south on Old NC 86</span>
+
+					</td>
+<br>
+					<td width="206" class="mappic"><img src="images/templemap.jpg" alt="Map to Temple" /></td>
+				</tr>
+
+
+<tr>
+					<td width="238" class="mappic"><img src="images/roadsign.jpg" alt="Road Sign" /><br />
+						<span class="caption">View travelling south on Old NC 86</span>
+
+					</td>
+<br>
+					<td width="206" class="mappic"><img src="images/templemap.jpg" alt="Map to Temple" /></td>
+				</tr>
+	  </table>
+</div-->
+
+
+
+
+		<h4>From Interstate-40</h4>
+	
+		<p class="directions">Take Exit 266 onto Martin Luther King, Jr Blvd (Historic Airport Road) and 
+		proceed toward Chapel Hill about 0.1 mile. Turn right on Eubanks Road and 
+		follow Eubanks (2.5 miles) until it meets Old NC 86. Turn left on Old NC 86 and 
+		proceed about 0.6 mile to the temple sign on the right. The temple is behind a <b>long 
+			hedge row</b> around the driveway.</p>
+
+		<h4>From Chapel Hill North</h4>
+		<p class="directions"> Proceed north on Martin Luther King, Jr Blvd (Historic Airport Road) to 
+		Eubanks Road. Turn left on Eubanks Road and follow Eubanks (2.5 miles) until it meets Old NC 86. Turn left on Old NC 86 and proceed about 0.6 mile to the temple sign on the right. The temple is behind a <b>long 
+			hedge row</b> around the driveway.</p>		
+		<h4>From Chapel Hill South</h4>
+		<p class="directions"> Take NC 54 Bypass around Chapel Hill and Carrboro and continue on west NC 
+			54. Right after passing Carrboro Plaza, turn right on Old Fayetteville Road. 
+			Follow Old Fayetteville Road by McDougle School to the second stop light at 
+			Calvander Crossroads. Continue 0.9 mile north on Old NC86. The temple is on 
+			your left, directly across from the 35 MPH speed limit sign.</p>
+		<h4>From Interstate-85</h4>
+		<p class="directions">Take Exit 164 (Hillsborough) and turn toward Chapel Hill on Old NC86:
+			this will be a left turn from the off-ramp if you are coming from Durham, or a right turn
+			if you are coming from Mebane. Drive 7 miles on Old NC 86. The Temple sign is on the right.</p><br>
+			  
+<center>
+			  <table width="100%" border="0">
+          <tr>
+            <td><img src="images/head.jpg" alt="We're right here!" class="innerpageheadimage"/></td>
+            <td><span class="quote"><font size=-2>At the still point of the turning world.<br/>Neither flesh nor fleshless;                  <br/>
+Neither from nor towards;                    <br/>At the still point, there the dance is...<br/>
+<span style="padding-left:3em;">&mdash;from T.S. Eliot: <span class="ital">Four Quartets</font>   </span>  </span></td>
+          </tr>
+        </table>
+</center>
+		
+
+</div>
+</td>
+<td valign=top>
+<script type="text/javascript">
+showImages(2)
+</script>
+</td>
+</tr>
+</table>
+</center>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<html>
+
+<style type="text/css">
+body {
+  color : black;
+  font-size : 0.18in;
+  background-color : rgb(219, 240, 178); }
+div {
+  -moz-box-sizing : border-box;
+  box-sizing : border-box; }
+div#navbar {
+  position : absolute;
+  top : 1.5in;
+  left : .2in;
+  width : 2in }
+div.navbox {
+  background-color : rgb(255, 245, 160);
+  border-style : solid;
+  border-width : 0.03in;
+  border-color : rgb(180, 200, 140);
+  margin-bottom : .2in;
+  padding-top : 0.2in;
+  padding-bottom : 0.2in;
+  width : 100%;
+}
+div#contact {
+  font-family : verdana, arial, helvetica, sans-serif;
+  font-size : 0.15in;
+  font-weight : bold;
+  text-align : center;
+}
+a.email {
+  font-size : 0.1in;
+}
+div#navlist {
+  padding-left : 0.25in;
+  font-family : serif;
+  font-size : 0.18in;
+  font-weight : bold;
+  text-align : left;
+  line-height : 180%;
+}
+div#navlist A:link {text-decoration : none;}
+div#navlist A:visited {text-decoration : none;}
+div#navlist A:active {text-decoration : none;}
+div#navlist A:hover {text-decoration : underline; color : red;}
+div#photos {
+  position : absolute;
+  top : 1.5in;
+  left : 7.3in;
+  width : 2.5in;
+}
+div#content {
+  border-style : solid;
+  border-width : .03in;
+  border-color : rgb(180, 200, 140);
+  font-family : verdana, arial, helvetica, sans-serif;
+  text-align : justify;
+  position : absolute;
+  top : 1.2in;
+  left : 1.75in;
+  padding-top : 0.05in;
+  padding-bottom : .15in;
+  padding-left : .75in;
+  padding-right : .75in;
+  margin-bottom : .5in;
+  width : 6in;
+  background-color : #ffffff }
+div#banner {
+  text-align : center;
+  color : rgb(160, 200, 140);
+  position : absolute;
+  top : .1in;
+  left : 1.75in;
+  width : 6in;
+  height : .95in }
+img.banner {
+  width : 4.5in;
+}
+img.navbutton {
+  width : 1in;
+  height : 1in }
+img.photo {
+  border-style : solid;
+  border-width : .03in;
+  border-color : rgb(180, 200, 140);
+  margin-bottom : .2in;
+  width : 2in;
+}
+</style>
+
+</html>

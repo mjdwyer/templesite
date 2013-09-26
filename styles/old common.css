@@ -1,0 +1,317 @@
+body {
+	font-family:Arial, Sans-Serif;
+	/*font-size:medium;*/
+}
+.quote, .address, .map {
+	margin-left:2em;
+	margin-right:6em;
+}
+.mappics
+{
+	border-style:none;
+}
+.mappic
+{
+	padding-right:10px;
+}
+.quote {
+	font-size:smaller;
+}
+.caption 
+{
+	font-family:Times New Roman, Serif;
+	font-size:smaller;
+	font-style:italic;
+}
+.address {
+	padding-bottom:1em;
+}
+h3
+{
+	color:#336699;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+p
+{
+	padding-top:.2em;
+	margin-top:0;
+}
+.directions
+{
+	padding-top:0;
+	margin-top:0;
+}
+h4 {
+	font-style:oblique;
+	color:#336699;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+ul
+{
+	padding-top:.2em;
+	margin-top:0;
+}
+li {
+	list-style-type:none;
+}
+.ilwonsang 
+{
+	float:left;
+	margin-left:-1.5em;
+}
+.rheadimage
+{
+	float:right;
+}
+.rbodyblock
+{
+    clear:both;
+	float:right;
+    padding-left:1em;
+}
+.intro
+{
+	clear:both;
+	padding-top:0em;
+	margin-top:1em;
+}
+.ital
+{
+	font-style:oblique;
+}
+.nav
+{
+	border:solid 1px silver;
+	background-color:#FFFFC0;
+    margin-bottom:.5em;
+	width:180px;
+}
+.info
+{
+	border:solid 1px silver;
+	background-color:#E8E8FF;
+    margin-bottom:.5em;
+	width:256px;
+}
+.infohead
+{
+	background-color:#D0D0FF;
+	border-bottom:solid 1px silver;
+}
+.infobody
+{
+    font-size:80%;
+    padding:.5em;
+}
+.navhead
+{
+	background-color:#FFFF90;
+	border-bottom:solid 1px silver;
+}
+.sectionanchor
+{
+}
+.album
+{
+	margin:0;
+	padding:0;
+}
+.portfolio
+{
+	margin:0 0 0 1em;
+	padding:0;
+}
+h5
+{
+	color:Black;
+	margin:0;
+	padding:0;
+    padding-left:1em;
+}
+.withmarker li
+{
+	list-style-type:circle;
+	vertical-align:middle;
+	color:#336699;
+    font-weight:normal;
+}
+.norm
+{
+	color:Black;
+}
+.link
+{
+    text-decoration:underline;
+}
+.disabled
+{
+    color:#808080;
+}
+.innerpagehead
+{
+    padding:0;
+    margin:0;
+	/*margin-left:-12px;*/
+    padding-bottom:.1em;
+    border-bottom: 2px solid silver;
+	color:#336699;
+}
+.innerpageintro, .innerpagebody
+{
+	padding-top:1em;
+}
+.innerpagebody
+{
+	clear:both;
+}
+.innerpagehome
+{
+	float:right;
+	font-size:smaller;
+}
+.innerpageleft
+{
+	float:left;
+	padding-right:1em;
+	/*margin-left:-6px;*/
+}
+.innerpageheadimage
+{
+	border-right:2px solid silver;
+	border-bottom:2px solid silver;
+	border-left:2px solid silver;
+}
+.itemtitle
+{
+	vertical-align:top;
+    text-align:right;
+    font-weight:bold;
+    color:#336699;
+}
+.itemdescription
+{
+	vertical-align:top;
+    text-align:left;
+    font-weight:normal;
+}
+#navcontainer
+{
+    width: 130px;
+}
+#navcontainer ul
+{
+margin-left: 1em;
+padding-left: 1em;
+list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size:smaller;
+}
+#navcontainer a
+{
+display: block;
+padding: 3px;
+width: 130px;
+color:Black;
+font-weight:normal;
+background-color: #FFFFC0;
+border:1px solid #FFFFC0;
+}
+#navcontainer a:link, #navlist a:visited
+{
+color: #FFFFC0;
+color:Black;
+font-weight:normal;
+text-decoration: none;
+}
+#navcontainer a:hover
+{
+border: 1px solid silver;
+background-color: #FFFFA0;
+color: Black;
+font-weight:bold;
+}
+.kkmenu
+{
+	border-bottom:1px solid silver;
+}
+.kkmenucola
+{
+	text-align:left;
+	width:7em;
+	color:#336699;
+}
+.kkmenucolb
+{
+	text-align:left;
+	width:8em;
+	color:#336699;
+}
+.kkmenucolc
+{
+	text-align:left;
+	color:#336699;
+}
+.kkmenucell
+{
+	text-align:left;
+	vertical-align:top;
+	padding-bottom:.2em;
+}
+.kkmenu td
+{
+	text-align:left;
+	vertical-align:top;
+	padding-bottom:.2em;
+}
+.cleanborder
+{
+	border:1px solid silver;
+}
+.whisper
+{
+	font-size:smaller;
+	color:gray;
+}
+.innerpagefooter
+{
+	padding-top:1em;
+	text-align:center;
+}
+.homelink, .backlink
+{
+	color:maroon;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.reglink
+{
+color:maroon;
+text-decoration:underline;
+font-size:10px;
+font-weight:normal;
+vertical-align:super;
+}
+.usererror
+{
+background-color:#FFFF90;
+font-size:smaller;
+font-weight:bold;
+color:black;
+border:1px solid silver;
+}
+.boxhead
+{
+text-align:center;
+border-bottom:1px solid silver;
+color:#336699;
+font-weight:bold;
+}
+.boxnote
+{
+background-color:#FFFFC0;
+text-align:center;
+font-style:oblique;
+font-size:smaller;
+}

@@ -1,0 +1,109 @@
+body {
+  text-align : center;
+  color : black;
+  font-size : 0.18in;
+  background-color : rgb(219, 240, 178);
+  background-image : 'bodhi_background.png'
+  min-width : 10.6in;
+}
+div {
+  -moz-box-sizing : border-box;
+  box-sizing : border-box; }
+div.box {
+  background-color : mintcream;
+  border-style : solid;
+  border-width : 0.03in;
+  border-color : rgb(180, 200, 140);
+  padding-top : 0.2in;
+  padding-bottom : 0.2in;
+  width : 100%;
+}
+div#navlist {
+  padding-left : 0.10in;
+  font-family : georgia, times new roman, times, serif;
+  font-size : 13.5pt;
+  font-weight : bold;
+  text-align : left;
+  line-height : 180%;
+  margin-top : .7in;
+  margin-bottom : .1in;
+  width : 2in;
+}
+div#contact {
+  font-family : trebuchet, verdana, arial, helvetica, sans-serif;
+  font-size : 10.5pt;
+  font-weight : bold;
+  text-align : center;
+  color : darkolivegreen;
+  margin-top : .2in;
+  margin-bottom : 4.25in;
+}
+div#contact a.email {
+  font-size : 0.1in;
+}
+div#content {
+  font-family : trebuchet, verdana, arial, helvetica, sans-serif;
+  font-size : 13pt;
+  text-align : justify;
+  padding : 0.2in .75in .4in .75in;
+  margin : 0.2in;
+  width : 5.5in;
+  background-color : white;
+}
+div#drivinginstructions {
+  font-family : trebuchet, verdana, arial, helvetica, sans-serif;
+  font-size : 10pt;
+  text-align : justify;
+  padding : 0.05in .05in .05in .05in;
+  margin-top : .7in;
+  margin-bottom : 3in;
+  width : 2.8in;
+  background-color : white;
+  vertical-align: top;
+}
+img#banner {
+  border-style : solid;
+  border-width : .03in;
+  border-color : rgb(180, 200, 140);
+  margin-bottom : 0in;
+}
+img.photo {
+  border-style : solid;
+  border-width : .03in;
+  border-color : rgb(180, 200, 140);
+  margin : 0.7in 0in 0in 0in;
+  width : 2in;
+}
+a:hover img.photo {
+  border-style : solid;
+  border-width : .03in;
+  border-color : yellow;
+}
+table#wrap {
+}
+h3 {
+  font-family : georgia, times new roman, times, serif;
+  font-size : 16pt;
+  color : rgb(160, 180, 120);
+  color : olivedrab;
+  text-align : left;
+  border-style : solid;
+  border-width : 0px 0px 1px 0px;
+}
+ul {
+  text-align : left;
+}
+a:link {
+  text-decoration : none;
+}
+a:link:hover {
+  text-decoration : underline;
+  color : red;
+}
+a:visited {
+  text-decoration : none;
+}
+a:visited:hover {
+  text-decoration : underline;
+  color : red;
+}
